@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="crear clientes en web service servicio" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-04T02:58:05" hostname="50HW016384" time="4.651">
+<testsuite name="crear clientes en web service servicio" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-04T13:33:41" hostname="50HW016384" time="3.62">
   <properties/>
-  <testcase name="login exitoso de un cliente" classname="crear clientes en web service servicio" time="3.638"/>
-  <testcase name="login fallido de un cliente" classname="crear clientes en web service servicio" time="1.007"/>
+  <testcase name="login exitoso de un cliente" classname="crear clientes en web service servicio" time="3.62"/>
   <system-out><![CDATA[{
     "token": "QpwL5tke4Pnpja7X4"
 }
@@ -10,13 +9,6 @@
     "token": "QpwL5tke4Pnpja7X4"
 }
 ------------------> 200
-{
-    "error": "Missing password"
-}
-{
-    "error": "Missing password"
-}
-------------------> 400
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

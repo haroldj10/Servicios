@@ -12,7 +12,7 @@ Feature: crear clientes en web service servicio
 
     Examples:
       |    email                    | password        | url                              | response |
-      |   primer2_corr33@gmail.com  |  micontrasena   |  https://reqres.in/api/register  | 201      |
+      |   eve.holt@reqres.in        |  micontrasena   |  https://reqres.in/api/register  | 200      |
       #|   segundo1_correo@gmail.com |  micontrasena   |  https://reqres.in/api/register  | 201      |
 
 
@@ -41,10 +41,10 @@ Feature: crear clientes en web service servicio
 
     Examples:
       |    email                    | password        | url                           | response |
-      |   eve.holt@reqres.in        |  cityslicka     |  https://reqres.in/api/login  | 200      |
+      |   eve.holt@reqres.in        |  micontrasena   |  https://reqres.in/api/login  | 200      |
 
 
-  @creacionCliente
+  #@creacionCliente
   Scenario Outline: login fallido de un cliente
     Given que Harold consulta el servicio <url>
     When hace el logueo con los datos
